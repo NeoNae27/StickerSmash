@@ -20,11 +20,18 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "resizeMode": "contain",
+        "backgroundColor": "#25292e"
+      },
+      "package": "com.neonae27.StickerSmash"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d5db23b0-8be8-47e5-bd18-1bb7269e3cdb"
+      }
     }
   }
 }
